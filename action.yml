@@ -1,4 +1,4 @@
-name: "Github.User.Language.Stats"
+name: "Github-User-Language-Stats"
 description: "Generate an aggregated language distribution including private repositories, without exposing private data"
 
 author: "Kaiwinta"
