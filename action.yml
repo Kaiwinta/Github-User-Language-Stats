@@ -1,0 +1,20 @@
+name: "Github.User.Language.Stats"
+description: "Generate an aggregated language distribution including private repositories, without exposing private data"
+
+author: "Kaiwinta"
+
+branding:
+  icon: globe
+  color: orange
+
+inputs:
+  token:
+    description: "GitHub token with access to private repositories"
+    required: true
+  output:
+    description: "Path to output JSON file"
+    default: "languages.json"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
