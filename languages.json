@@ -1,0 +1,30 @@
+{"SpotifyTest": {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#list-repository-languages", "status": "404"}}
+{".github": {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#list-repository-languages", "status": "404"}}
+{"Equipment": {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#list-repository-languages", "status": "404"}}
+{"Fiches-Hub": {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#list-repository-languages", "status": "404"}}
+{"Hub-Website": {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#list-repository-languages", "status": "404"}}
+{"Advent-of-code": {"Python": 53467, "C#": 10354, "F#": 1894, "Shell": 430}}
+{"AnkamaDle": {"C#": 18502, "CSS": 15646, "HTML": 10994, "Python": 5585}}
+{"Artifact-Mmo": {"Python": 2218}}
+{"AWS-Pool": {}}
+{"Cours-Nsi": {"Jupyter Notebook": 114980, "Python": 66920, "C++": 2788, "C": 2156}}
+{"CPP-Link-Graph": {"C++": 12014, "TypeScript": 4270, "CSS": 3280, "JavaScript": 1921, "Shell": 250}}
+{"cube_solver": {"Python": 11768}}
+{"Docker-Services-Manager": {"CSS": 7382, "JavaScript": 6583, "HTML": 1268, "Dockerfile": 178}}
+{"Dotnet-Playwright-Xunit-Template": {"C#": 15188, "PowerShell": 1921}}
+{"Epitech": {"C++": 1877767, "C": 1466938, "Haskell": 699539, "Python": 375398, "JavaScript": 280229, "Shell": 90763, "Vue": 75876, "Makefile": 75052, "TypeScript": 23863, "CMake": 19544, "Bru": 19515, "HTML": 13219, "PowerShell": 13053, "CSS": 10293, "Assembly": 9141, "Java": 6954, "Dockerfile": 5003, "Groovy": 4416, "Perl": 915, "Befunge": 148, "Gnuplot": 40}}
+{"Epitech-templates": {"Shell": 3694, "Makefile": 2681, "CMake": 572, "Haskell": 486, "C": 169, "C++": 108}}
+{"ESP8266.WPA2": {"C++": 4619}}
+{"Github-User-Language-Stats": {"Dockerfile": 161, "Python": 78}}
+{"Internship": {"Python": 178}}
+{"Kaiwinta": {}}
+{"Kaiwinta.Portfolio": {}}
+{"League-Of-Legends-Lore": {"Python": 5147}}
+{"Ltime": {"Java": 7717}}
+{"MudBlazor": {"C#": 12607551, "HTML": 3406278, "SCSS": 320158, "JavaScript": 191993, "PowerShell": 14476, "TypeScript": 668}}
+{"MyScripts": {"Shell": 19156}}
+{"Nihongo-Tracker": {"C#": 95010, "CSS": 8058, "HTML": 5368}}
+{"Nihongo-Word-DB": {"Python": 1025}}
+{"Nsi-Projekt": {"Python": 70519}}
+{"Osu-maps": {"C#": 8114}}
+{"Personnal-Highschools-Projects": {"Jupyter Notebook": 245146, "Python": 7341}}
