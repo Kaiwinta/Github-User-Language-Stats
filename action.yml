@@ -14,6 +14,18 @@ inputs:
   output:
     description: "Path to output JSON file"
     default: "languages.json"
+  owned_only:
+    description: "Include only repositories owned by the current user"
+    default: "true"
+  include_forks:
+    description: "Include forked repositories in language totals"
+    default: "false"
+  attribution_mode:
+    description: "raw = full repository bytes, commit_ratio = weighted by owner commit share"
+    default: "raw"
+  timeout_seconds:
+    description: "HTTP timeout used for GitHub API requests"
+    default: "20"
 
 runs:
   using: "docker"
