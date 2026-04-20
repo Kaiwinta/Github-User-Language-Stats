@@ -12,7 +12,7 @@ def get_github_token():
     return os.getenv('INPUT_TOKEN')
 
 def get_output_path():
-    return os.environ.get("INPUT_OUTPUT", "languages.json")
+    return os.environ.get("INPUT_OUTPUT", "dist/languages.json")
 
 def get_include_forks():
     return os.environ.get("INPUT_INCLUDE_FORKS", "false").lower() == "true"
@@ -132,6 +132,9 @@ def main():
             print(f"Repo: {repo.get('full_name')}, Language: {language}, Bytes: {languages[language]}, Commit Ratio: {commit_ratio:.2f}, Weighted: {weighted}")
             user_languages[language] = user_languages.get(language, 0) + weighted
 
+    parent = os.path.dirname(output_path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump({owner: user_languages}, f)
         f.write('\n')

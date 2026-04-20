@@ -13,7 +13,7 @@ inputs:
     required: true
   output:
     description: "Path to output JSON file"
-    default: "languages.json"
+    default: "dist/languages.json"
   owned_only:
     description: "Include only repositories owned by the current user"
     default: "true"
