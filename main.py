@@ -2,6 +2,7 @@ import requests
 from dotenv import load_dotenv
 import json
 import os
+from sys import argv
 
 load_dotenv()
 
@@ -140,4 +141,8 @@ def main():
         f.write('\n')
 
 if __name__ == "__main__":
+    if len(argv) == 2 and argv[1] == "--dev":
+        print("Running in development mode with environment variables from .env")
+        from dotenv import load_dotenv
+        load_dotenv()
     main()
