@@ -4,8 +4,6 @@ import json
 import os
 from sys import argv
 
-load_dotenv()
-
 def get_repo_owner():
     return os.getenv('GITHUB_REPOSITORY_OWNER')
 
